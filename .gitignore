@@ -1,2 +1,2 @@
-/cache/
-/config/development/
+/apps/cache/volt/*
+/_schemas/*

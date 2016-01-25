@@ -1,0 +1,538 @@
+/*general - starts*/
+.js-blocks{
+  display:none;
+}
+.success-message{
+  color:#339933;
+  text-align: center;
+  padding:5px;
+}
+.error-message{
+  color:#cc0000;
+  text-align: center;
+  padding:5px;
+}
+.success-message-box{
+  color:#339933;
+  text-align: center;
+  background-color: #CCFFCC;
+  border:1px solid #339933;
+  display:none;
+  border-radius: 5px;
+  padding:10px;
+  margin:10px 0px 20px 5px; 
+}
+.error-message-box{
+  color:#cc0000;
+  text-align: center;
+  background-color: #FFCCCC;
+  border:1px solid #cc0000;
+  display:none;
+  border-radius: 5px;
+  padding:10px;
+  margin:10px 0px 20px 5px; 
+}
+.ncp-body{
+  height: auto;
+  overflow: hidden;
+  min-height:400px;
+}
+.clear-float{
+  clear:both;
+}
+
+.fieldError{
+  border: 1px solid #cc0000;
+  color: #cc0000;
+}
+
+.nav-tabs{
+  margin: 20px 0px 20px 0px;
+}
+
+.form-control{
+  margin-bottom:5px;
+}
+
+.pztLoader{
+  position:absolute;
+  z-index: 1000;
+  left:0px;
+  width:100%;
+}
+
+.app-preview-panel{
+  background-color:#f0f0f0;
+  padding:20px 0px 20px 0px;
+}
+.app-preview-title{
+  text-align: center;
+  margin:30px 0px 15px 0px;
+}
+.app-preview{
+  margin:auto;  
+  max-width:480px;
+  width:100%;
+  min-height:720px;
+  border:1px solid #cccccc;
+  color: #888888;
+  font-size:13px;
+  background-color: #ffffff;
+  height:840;
+}
+
+.app-header{
+  width:100%;
+}
+
+.app-body{
+  padding:0% 5%;
+}
+
+.app-standout{
+  font-weight: bold;
+}
+
+.app-italics{
+  font-style: italic;
+}
+
+.app-important{
+  color: #ec3a3e;
+  font-weight: bold;
+}
+
+.app-block{
+  margin-bottom:12px;
+}
+
+.app-title-text{
+  height:55px;
+  padding:12px 0px 12px 0px;
+  color: #ec3a3e;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+
+.app-back-icon,
+.app-page-icon{
+  height:55px;
+  padding:12px 0px 12px 0px;
+}
+
+.app-title-line{
+  border-bottom :1px solid #cccccc;
+}
+
+.app-logo{
+  max-width:100%;
+  padding:15px;
+  max-height:250px;
+}
+
+/*bootstrap file upload*/
+.kv-upload-progress{
+  display:none;
+}
+
+/*general - ends*/
+
+/*top - starts*/
+.top{
+  background-color: #ec3a3e; /*RED*/
+}
+.top .logo{
+
+  height: 90px;
+}
+.top .logo img{
+  max-height: 100px;
+}
+.top .system-dt{
+  margin-top: 85px;
+  text-align: right;
+}
+/*top - ends*/
+
+/*bottom - starts*/
+.bottom{
+  border-top: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  font-size:12px;
+  margin-top:50px;
+  background-color:#f0f0f0;
+}
+/*bottom - ends*/
+/*body - starts*/
+.pzt-body{
+  width:100%;
+  float:left;
+}
+/*body - ends*/
+
+.container-wider{
+  position: relative;
+}
+
+/*signup - starts*/
+.business-container{
+  height: auto;
+  min-height: 650px;
+  position: relative;
+}
+.form-forgot,
+.form-signup {
+  display: none;
+}
+.form-reset,
+.form-signin,
+.form-forgot,
+.form-signup {
+  min-width: 350px;
+  max-width: 450px;
+  padding: 15px;
+  margin: 50px auto;
+}
+.form-heading {
+  text-align: center;
+}
+.form-signin .form-signin-heading
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin  .checkbox, .form-products .checkbox {
+  float:left;
+  font-weight: normal;
+}
+.form-signin .forgot,
+.form-forgot .forgot {
+  float:right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form-signin .register {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.form-signin .register a{
+  font-size: 16px;
+}
+
+
+
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  /*margin-bottom: -1px;*/
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  /*margin-bottom: 10px;*/
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+/*signup - ends*/
+
+/*Retailer*/
+.map-button{
+  margin-top:25px;
+}
+.branch-compact-view{
+  display:block;
+  border:1px solid #cccccc;
+  border-radius: 10px;
+  padding: 10px;
+  background-color:#f0f0f0;
+  box-shadow: 3px 3px 5px #cccccc;
+  margin-bottom:20px;
+}
+.branch-full-view{
+  display:none;
+}
+.branch-label{
+  font-size:20px;
+  font-style: italic;
+  color: #999999;
+}
+.branch-control{
+  margin: 2px 15px 0px 0px;
+}
+
+.branch-deleted{
+  text-decoration: line-through;
+  color: #cc0000 !important;
+  border-color: #cc0000;
+  background-color: #ffffff !important;
+}
+
+.branch-label .form-control{
+  width: 100% !important;
+}
+
+.branch-messages{
+  padding:4px 0px 0px 20px;
+}
+
+.branch-message-success{
+  color:#339933;
+}
+.branch-message-error{
+  color:#cc0000;
+}
+.map-canvas-active{
+  width: 100%;
+  height: 400px;
+  margin-bottom:15px;
+}
+
+
+.form-subtitle{
+    color: #87907D;
+    font-family: inherit;
+    font-weight: bold;
+    line-height: 1.1;
+    text-decoration: underline;
+    font-size: 14pt;
+    width:100%;
+}
+.subtitle-bold{
+    color: #87907D;
+    font-family: inherit;
+    font-weight: bold;
+    line-height: 2.1;
+}
+.subtitle{
+    color: #87907D;
+    font-family: inherit;
+    line-height: 2.1;
+}
+
+textarea.form-control{
+  height:80px;
+}
+
+#InputSearch label, #InputSearch .form-control, #searchPromotion .form-control, #searchCustomers .form-control, #searchSales .form-control, #searchStaff .form-control
+{
+  width:100%;
+}
+
+.rounded {
+  border-radius: 10px;
+  background: #F5F5F5;
+  padding:5px;
+}
+.rounded-border {
+  border-radius: 10px;
+  background: #F5F5F5;
+  padding:5px;
+  border-style: solid;
+  border-color: #888888;
+  border-width: 1px;
+}
+
+.rounded-white {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #888888;
+  border-width: 1px;
+  background-color: #FFFFFF;
+  padding:5px;
+  width:90%;
+  margin: 5%;
+  color:#EC3A3E !important;
+  font-weight: bold;
+}
+
+.note-message{
+  color:#87907D;
+  width:100%;
+  font-size: 16px;
+}
+.note-message-small{
+  color:#87907D;
+  width:100%;
+  font-size: 11px;
+}
+.note-message-strong
+{
+  color:#87907D;
+  width:100%;
+  font-size: 16px;
+  font-weight: bold;
+}
+.name-detail
+{
+  color:#9B98A1;
+  width:100%;
+  font-size: 24px;
+  font-weight: bold;
+}
+.price-detail
+{
+  color:#EC3A3E;
+  width:100%;
+  font-size: 24px;
+  font-weight: bold;
+}
+.product_list li
+{
+    display:inline-table;
+    width:49%;
+    color:#87907D;
+}
+.red-list dt,.red-list dd
+{
+  color: #EC3A3E !important; 
+}
+
+
+#noteForm
+{
+  font-style: italic;
+}
+#containerDelete
+{
+  height:40px;
+  padding-top:28px;
+  width:100%;
+  cursor: pointer;
+}
+.form-checkbox-inline
+{
+  display:inline;
+  margin-right: 10px;
+  margin-left: 20px;
+  padding-top: 0px !important;
+}
+
+.checkboxProduct
+{
+  margin-top: 8px !important;
+}
+
+.col-xs-11 .form-checkbox-inline
+{
+  margin-left: 0px;
+}
+
+/* Organization */
+.ncp-body .ncp-org{
+  margin-top: 10px;
+}
+
+.ncp-body .ncp-org .ncp-org-table{
+  margin-top: 10px;
+}
+
+.ncp-body .ncp-org .ncp-org-table .table-responsive div .pager{
+  margin: 0!important;
+}
+
+#new-org .modal-dialog .modal-content .modal-body{
+  height: auto;
+  min-height: 600px;    
+}
+
+/* General Button File */
+
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  background: red;
+  cursor: inherit;
+  display: block;
+}
+input[readonly] {
+  background-color: white !important;
+  cursor: text !important;
+}
+
+
+/* Organization Detail */
+.ncp-body .ncp-org-detail #detailOrganization div .form-group .col-md-5 .inputcolor{
+ /* margin-bottom: 16px;*/
+}
+
+/*User*/
+#log-download-link{
+  padding:0px 20px 0px 0px;
+}
+
+/*
+Changed bootstrap primary buttons from blue to red:
+337ab7  -> ec3a3e
+265a88  -> c70a0e
+245580  -> 9e0004;
+*/
+
+.byEvents, .requiresPoints{
+  display:none ;
+}
+
+#EditPromotion,#frequency,#select_event,#PercentDiscount,#SeeMember,#editStaff,#newPassword
+{
+  display:none;
+}
+#pPromoSalesPitch, #pQrCode
+{
+  text-align: center;
+}
+
+.transbox {
+    background-color: #ffffff;
+    color: #9b98a1;
+    font-weight: bold;
+    height: 35px;
+    left: 25px;
+    opacity: 0.6;
+    position: relative;
+    top: -40px;
+    width: 90%;
+}
+
+#SeeMember hr
+{
+  margin-bottom: 5px;
+  margin-top: 5px;
+  width:95%;
+}
+#SeeMember h4
+{
+  font-weight: bold;
+  color: #87907D;
+}
+.containerChart
+{
+  width:100%;
+  height:100%;
+}
+input[type=number]
+{
+  padding:0px !important;
+}
